@@ -9,6 +9,9 @@
     "email": "heinlinaung6891@gmail.com",
     "url": "http://about.me/heinlinaung"
   },
+  "bin": {
+    "heinlinaung": "source/cli.js"
+  },
   "keywords": [
     "heinlinaung",
     "cli-app"
