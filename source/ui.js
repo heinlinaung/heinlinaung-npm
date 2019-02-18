@@ -31,6 +31,10 @@ const items = [
 		url: 'https://github.com/heinlinaung'
 	},
 	{
+		label: 'Blog',
+		url: 'https://heinlinaung.github.com/blog'
+	},
+	{
 		label: 'Contact',
 		url: 'https://heinlinaung.github.com/contact'
 	},
@@ -46,8 +50,7 @@ module.exports = () => (
 	<div>
 		<br/>
 		<div>
-			<Text>I make things happen.</Text><br/>
-			<Text>[Keys -J , K , Enter]</Text>
+			<Text>I make things happen.</Text>
 		</div>
 		<br/>
 		<SelectInput items={items} onSelect={handleSelect}/>
