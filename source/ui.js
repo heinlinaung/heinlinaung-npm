@@ -1,11 +1,11 @@
 'use strict';
 const path = require('path');
-const {h, Text} = require('ink');
+const { h, Text } = require('ink');
 const SelectInput = require('ink-select-input');
 const opn = require('opn');
 const terminalImage = require('terminal-image');
 
-const open = url => opn(url, {wait: false});
+const open = url => opn(url, { wait: false });
 
 const handleSelect = item => {
 	if (item.url) {
@@ -48,11 +48,11 @@ const items = [
 
 module.exports = () => (
 	<div>
-		<br/>
+		<br />
 		<div>
-			<Text>I make things happen.</Text>
+			<Text>Make things happen.</Text>
 		</div>
-		<br/>
-		<SelectInput items={items} onSelect={handleSelect}/>
+		<br />
+		<SelectInput items={items} onSelect={handleSelect} />
 	</div>
 );
